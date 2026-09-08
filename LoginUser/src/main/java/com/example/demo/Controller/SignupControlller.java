@@ -21,7 +21,7 @@ public class SignupControlller {
 		return null;
 	}
     
-     @PostMapping("signup")
+     @PostMapping("signupForm")
      ResponseEntity SignUpForm(Model model) {
     	 
     	 model.addAttribute("user", model);
